@@ -1,7 +1,7 @@
 <template>
   <header class="container-fluid">
-    <div class="row hero justify-content-center align-items-center mt-3 mt-md-5">
-        <img class="img-fluid hero__img col-5 col-md-4 p-1" src="https://img.freepik.com/vector-gratis/lindo-perro-sacando-lengua-ilustracion-icono-dibujos-animados_138676-2709.jpg" alt="">
+    <div class="row hero justify-content-center align-items-center mt-3 p-1 mt-md-4">
+        <span class="border-profile"><img class="img-fluid hero__img col-5 col-md-4 p-1  " src="../assets/profile-picture.png" alt=""></span>
         <div class="d-flex flex-column justify-content-center align-items-center ">
             <h1 class="hero__title col-12 h2 text-center mt-2">César Mongez</h1>
             <h2 class="hero__subtitle h6 text-center col-12">Desarrollador Front End</h2>
@@ -40,8 +40,15 @@ export default {
         min-width: 124px;
         max-width: 215px;
         border-radius: 100%;
-        border:10px solid #666
+        background-color: #666;
+        filter:saturate(0%);
+        
+
     }
+}
+.border-profile{
+    border:10px solid #ffc300;
+    border-radius: 100%;
 }
 
 </style>

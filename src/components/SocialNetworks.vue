@@ -26,15 +26,15 @@
       <a href="" target="_blank" class="socialNetworks__link"
         ><img
           class="socialNetworks__img img-fluid"
-          src="https://cdn-icons-png.flaticon.com/512/1021/1021129.png"
+          src="../assets/certificate.png"
           alt="Icono certificados"
       /></a>
     </li>
     <li class="socialNetworks__item">
-      <a href="https://github.com/cmongez/portafolio" target="_blank" class="socialNetworks__link"
+      <a  class="socialNetworks__link"
         ><img
           class="socialNetworks__img img-fluid"
-          src="https://cdn-icons-png.flaticon.com/512/639/639394.png"
+          src="../assets/portfolio.png"
           alt="Icono codigo portafolio"
       /></a>
     </li>

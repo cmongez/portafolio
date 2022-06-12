@@ -12,6 +12,8 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+$prueba:blue;
+
 a{
   cursor: pointer;
 }
@@ -28,7 +30,7 @@ p,li{
   color:#A3ABB2
 }
 .btn-v-primary{
-  background-color: #FFE071;
+  background-color: #ffc300;
   color:#3D3D3D;
   border:0;
 }

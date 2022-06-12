@@ -11,7 +11,7 @@
         flex-wrap
       "
     >
-      <li class="skillsList__item">HTML</li>
+      <li class="skillsList__item btn ">HTML</li>
       <li class="skillsList__item">CCS</li>
       <li class="skillsList__item">Bootstrap</li>
       <li class="skillsList__item">Metodología BEM</li>
@@ -47,9 +47,9 @@ export default {
   &__item {
     list-style: none;
     padding: 10px;
-    background-color: #ffe071;
     color: #3d3d3d;
     border: 1px;
+    background-color: #FFC300;
     border-radius: 15px;
     margin: 5px;
     font-weight: bold;
