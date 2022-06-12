@@ -17,7 +17,8 @@ const routes = [
   {
     path: '/home',
     name: 'layout',
-    component: LayoutView
+    component: LayoutView,
+    meta: { transition: 'slide-left' }
   }
 ]
 

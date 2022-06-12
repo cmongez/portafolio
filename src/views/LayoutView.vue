@@ -1,6 +1,7 @@
 <template>
   <div>
     <NavBar />
+    
     <HomeView />
     <Footer />
  </div>

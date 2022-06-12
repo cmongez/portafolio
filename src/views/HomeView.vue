@@ -1,5 +1,6 @@
 <template>
   <div class="home d-flex justify-content-center align-items-center flex-column">
+    
     <HeroView />
     <AboutMeView />
     <ProjectsSkillsView />
