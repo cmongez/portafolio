@@ -13,7 +13,10 @@
   font-family: 'Poppins', sans-serif;
 }
 $prueba:blue;
+.p-indent{
+  text-indent: 40px;
 
+}
 a{
   cursor: pointer;
 }
