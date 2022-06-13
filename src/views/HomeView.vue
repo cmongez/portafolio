@@ -12,7 +12,7 @@
 // @ is an alias to /src
 import HeroView from '@/views/HeroView.vue'
 import AboutMeView from '@/views/AboutMeView.vue'
-import ProjectsSkillsView from '@/views/ProjectsSkilsView.vue'
+import ProjectsSkillsView from '@/views/ProjectsSkillsView.vue'
 
 export default {
   name: 'HomeView',

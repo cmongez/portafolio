@@ -22,7 +22,7 @@
           alt="Icono GitHub"
       /></a>
     </li>
-    <li class="socialNetworks__item">
+    <li class="socialNetworks__item pt-1 pr-1 pl-1">
       <a href="" target="_blank" class="socialNetworks__link"
         ><img
           class="socialNetworks__img img-fluid"
@@ -51,8 +51,8 @@ export default {
 .socialNetworks {
     list-style: none;
   &__img {
-    min-width: 20px;
-    max-width: 25px;
+    min-width: 25px;
+    max-width: 30px;
   }
 }
 
