@@ -35,7 +35,7 @@
           mt-2 mt-sm-4
         "
       >
-        <a  href="/curriculo.pdf" target="_blank">
+        <a  href="portafolio/curriculo.pdf" target="_blank">
           <button class="hero__button btn btn-v-primary btn-warning m-1 p-1">
             Ver CV
           </button></a

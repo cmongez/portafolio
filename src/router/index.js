@@ -1,10 +1,9 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import WelcomeView from "../views/WelcomeView.vue";
-
 import LayoutView from "../views/LayoutView.vue";
 import HomeView from "../views/HomeView.vue";
-import ProjectsSkillsView from '../views/ProjectsSkillsView.vue'
+import ProjectsSkillsView from "../views/ProjectsSkillsView.vue";
 Vue.use(VueRouter);
 
 const routes = [
@@ -13,8 +12,9 @@ const routes = [
     name: "welcome",
     component: WelcomeView,
   },
+
   {
-    path: "/layout",
+    path: "/",
     name: "layout",
     component: LayoutView,
     children: [
@@ -26,7 +26,7 @@ const routes = [
       {
         path: "/habilidades",
         name: "projectsskills",
-        component: ProjectsSkillsView
+        component: ProjectsSkillsView,
       },
     ],
   },
