@@ -44,7 +44,7 @@
           <div class="card-body flex-grow-2">
             <h5 class="card-title text-center">FOOD</h5>
             <p class="ccard-text flex-grow-3">
-              Sitio web de recetasricas y saludables, utilizando Bootstrap y preprocesador de CSS SASS.
+              Sitio web de recetas utilizando Bootstrap y el preprocesador  de CSS SASS.
               
             </p>
           </div>

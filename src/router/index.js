@@ -19,12 +19,12 @@ const routes = [
     component: LayoutView,
     children: [
       {
-        path: "/home",
+        path: "/portafolio/home",
         name: "home",
         component: HomeView,
       },
       {
-        path: "/habilidades",
+        path: "/portafolio/habilidades",
         name: "projectsskills",
         component: ProjectsSkillsView,
       },
