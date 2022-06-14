@@ -37,6 +37,39 @@
       <div class="col-12 col-sm-6 col-lg-4 p1">
         <div class="card mb-2">
           <img
+            src="../assets/project-4.png"
+            class="card-img-top bg-dark"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title text-center">DogShop</h5>
+            <p class="card-text">
+              Practica de metodología BEM, diseño responsive, mobile first e importación de
+              fuentes.
+            </p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item text-center">
+              HTML - CSS - BEM - Responsive
+            </li>
+          </ul>
+          <div class="card-body d-flex flex-wrap justify-content-center align-items-center">
+            <a href="https://cmongez.github.io/dogshop/" target="_blank">
+              <button class="hero__button btn btn-v-primary btn-warning">
+                Ver Demo
+              </button></a
+            >
+            <a href="https://github.com/cmongez/dogshop" target="_blank">
+              <button class="hero__button btn btn-v-secondary btn-dark m-1 p-1">
+                Ir a GitHub
+              </button></a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-4 p1">
+        <div class="card mb-2">
+          <img
             src="../assets/project-3.png"
             class="card-img-top bg-dark"
             alt="..."
@@ -44,7 +77,7 @@
           <div class="card-body">
             <h5 class="card-title text-center">TecniShop</h5>
             <p class="card-text">
-              Practica de metodología BEM, diseño responsive e importación de
+              Practica de metodología BEM, diseño responsive, mobile first e importación de
               fuentes.
             </p>
           </div>
@@ -164,5 +197,8 @@ export default {
     margin: 5px;
     font-weight: bold;
   }
+}
+.card-img-top:hover{
+filter:opacity(.80);
 }
 </style>

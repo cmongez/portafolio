@@ -14,7 +14,7 @@
 }
 $prueba:blue;
 .p-indent{
-  text-indent: 40px;
+  text-indent: 30px;
 
 }
 a{

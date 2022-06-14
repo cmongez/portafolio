@@ -35,12 +35,12 @@
           mt-2 mt-sm-4
         "
       >
-        <a  href="portafolio/curriculo.pdf" target="_blank">
+        <a  href="curriculo.pdf" target="_blank">
           <button class="hero__button btn btn-v-primary btn-warning m-1 p-1">
             Ver CV
           </button></a
         >
-        <a download="001_Cesar_Mongez_Front_End_CV" href="/curriculo.pdf" target="_blank">
+        <a download="001_Cesar_Mongez_Front_End_CV" href="curriculo.pdf" target="_blank">
           <button class="hero__button btn btn-v-primary btn-warning m-1 p-1">
             Descargar CV
           </button></a
