@@ -15,7 +15,7 @@ export default {
   name: "WelcomeView",
   methods: {
     goHome() {
-      this.$router.replace({ path: "portafolio/home" });
+      this.$router.replace({ path: "/home" });
     },
   },
   mounted() {setTimeout(() => this.goHome(), 2200);},
