@@ -15,7 +15,8 @@
         ><img
           class="img-fluid hero__img col-5 col-md-4 m-0 p-0"
           src="../assets/profile-picture.png"
-          alt=""
+          alt="César Mongez foto"
+          title="Foto de perfil"
       /></span>
       <div class="d-flex flex-column justify-content-center align-items-center">
         <h1 class="hero__title col-12 h2 text-center mt-2">César Mongez</h1>
@@ -36,18 +37,18 @@
         "
       >
         <a  href="curriculo.pdf" target="_blank">
-          <button class="hero__button btn btn-v-primary btn-warning m-1 p-1">
-            Ver CV
+          <button title="Ver currículum vitae" class="hero__button btn btn-v-primary btn-warning m-1 p-1">
+            Ver Currículum
           </button></a
         >
         <a download="001_Cesar_Mongez_Front_End_CV" href="curriculo.pdf" target="_blank">
-          <button class="hero__button btn btn-v-primary btn-warning m-1 p-1">
+          <button title="Descargar currículum vitae" class="hero__button btn btn-v-primary btn-warning m-1 p-1">
             Descargar CV
           </button></a
         >
-        <button class="hero__button btn btn-v-secondary btn-dark m-1 p-1">
-          Contactame
-        </button>
+        <a href="mailto:camongez28@gmail.com"><button title="Enviar correo" mailto="" class="hero__button btn btn-v-secondary btn-dark m-1 p-1">
+          Contáctame
+        </button></a>
       </div>
     </div>
   </header>

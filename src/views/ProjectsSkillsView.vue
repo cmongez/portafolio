@@ -33,7 +33,7 @@
     </div>
     
     <div id="proyectos" class="row d-flex align-items-stretch justify-content-center m-0 px-2">
-      <h2 class="col-12 px-4 pb-1">Proyectos</h2>
+      <h2 class="col-12 px-2 pb-1">Proyectos</h2>
       <div class="crecer col-12 col-sm-6 col-lg-6 p-3 ">
         <div class="card mb-2">
           <img
@@ -43,7 +43,7 @@
           />
           <div class="card-body flex-grow-2">
             <h5 class="card-title text-center">FOOD</h5>
-            <p class="ccard-text flex-grow-3">
+            <p class="card-text flex-grow-3">
               Sitio web de recetas utilizando Bootstrap y el preprocesador  de CSS SASS.
               
             </p>
@@ -76,9 +76,9 @@
           />
           <div class="card-body flex-grow-2">
             <h5 class="card-title text-center">ShopTravel</h5>
-            <p class="ccard-text flex-grow-3">
-              Sitio web de recetas utilizando Bootstrap y el preprocesador  de CSS SASS.
-              
+            <p class="card-text flex-grow-3">
+              Practica de metodología BEM, diseño responsive, mobile first, importación de
+              fuentes y Bootstrap.
             </p>
           </div>
           <ul class="list-group list-group-flush flex-grow-2">
@@ -110,8 +110,8 @@
           <div class="card-body flex-grow-2">
             <h5 class="card-title text-center">DogShop</h5>
             <p class="card-text">
-              Practica de metodología BEM, diseño responsive, mobile first e importación de
-              fuentes.Bootstrap
+              Practica de metodología BEM, diseño responsive, mobile first, importación de
+              fuentes.
             </p>
           </div>
           <ul class="list-group list-group-flush flex-grow-2">
@@ -143,7 +143,7 @@
           <div class="card-body flex-grow-2">
             <h5 class="card-title text-center">TecniShop</h5>
             <p class="card-text">
-              Practica de metodología BEM, diseño responsive, mobile first e importación de
+             Practica de metodología BEM, diseño responsive, mobile first, importación de
               fuentes.
             </p>
           </div>
@@ -176,7 +176,7 @@
           <div class="card-body flex-grow-2">
             <h5 class="card-title text-center">Star Wars Responsive</h5>
             <p class="card-text">
-              Practica de diseño responsive y mobile first.
+              Practica de diseño responsive, mobile first y grillas de Bootstrap.
             </p>
           </div>
           <ul class="list-group list-group-flush flex-grow-2">
@@ -263,7 +263,7 @@ export default {
     color: #3d3d3d;
     border: 1px;
     background-color: #ffc300;
-    border-radius: 15px;
+    border-radius: 5px;
     margin: 5px;
     font-weight: bold;
   }

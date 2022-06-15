@@ -1,6 +1,7 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-dark px-lg-5 ">
-    <router-link class="navbar-brand d-sm-none"  to="/">CMongez</router-link>
+    <div class="container px-4">
+      <router-link class="navbar-brand d-sm-none"  to="/">CMongez</router-link>
     <router-link class="navbar-brand  ml-lg-5 d-none d-sm-inline" to="/"
       >César Mongez</router-link
     >
@@ -32,6 +33,7 @@
           <a class="nav-link text-center" href="#proyectos">Proyectos</a>
         </li>
       </ul>
+    </div>
     </div>
   </nav>
 </template>

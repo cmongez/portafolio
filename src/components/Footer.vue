@@ -14,15 +14,15 @@
       <div class="d-flex flex-column align-items-center mb-2">
         <div class="d-flex align-items-center pb-2">
           <p class="text-center m-0">Hecho con</p>
-          <BeatingHeart class="mx-2" />
+          <BeatingHeart class="mx-2" title="Amor" />
           <p class="m-0">
             en
-            <span class="font-weight-bold font-italic text-success">Vue</span>
+            <span class="font-weight-bold font-italic text-success" title="Vue.js" >Vue</span>
           </p>
         </div>
         <p class="m-0">
           Creado por
-          <a href="https://github.com/cmongez/portafolio" target="_blank"
+          <a href="https://github.com/cmongez/portafolio" title="César Mongez" target="_blank"
             >César Mongez</a
           >
         </p>
