@@ -16,10 +16,11 @@
       <li class="nav-item">
         <a class="nav-link text-center" href="#habilidades">Habilidades</a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link text-center" href="#proyectos">Proyectos</a>
+      </li>
     </ul>
-    <span class="navbar-text text-center">
-      Navbar text with an inline element
-    </span>
+    
   </div>
 </nav>
 </template>

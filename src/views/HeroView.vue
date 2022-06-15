@@ -66,7 +66,7 @@ export default {
 <style lang="scss" scoped >
 .hero {
   &__img {
-    min-width: 124px;
+    min-width: 80px;
     height: auto;
     max-width: 215px;
     border-radius: 100%;

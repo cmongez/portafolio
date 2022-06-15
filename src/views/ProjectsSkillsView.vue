@@ -16,7 +16,7 @@
         flex-wrap
       "
     >
-      <li class="skillsList__item btn">HTML</li>
+      <li class="skillsList__item">HTML</li>
       <li class="skillsList__item">CCS</li>
       <li class="skillsList__item">Bootstrap</li>
       <li class="skillsList__item">Metodología BEM</li>
@@ -32,9 +32,9 @@
     </ul>
     </div>
     
-    <div class="row d-flex align-items-stretch d justify-content-center">
-      <h2 class="col-12 px-4">Proyectos</h2>
-      <div class="crecer col-12 col-sm-6 col-lg-4 p1">
+    <div id="proyectos" class="row d-flex align-items-stretch d justify-content-center px-2">
+      <h2 class="col-12 px-4 pb-1">Proyectos</h2>
+      <div class="crecer col-12 col-sm-6 col-lg-6 p-3 ">
         <div class="card  mb-2">
           <img
             src="../assets/project-5.png"
@@ -67,7 +67,40 @@
           </div>
         </div>
       </div>
-      <div class="crecer col-12 col-sm-6 col-lg-4 p1">
+      <div class="crecer col-12 col-sm-6 col-lg-6 p-3">
+        <div class="card  mb-2">
+          <img
+            src="../assets/project-6.png"
+            class="card-img-top bg-dark"
+            alt="..."
+          />
+          <div class="card-body flex-grow-2">
+            <h5 class="card-title text-center">ShopTravel</h5>
+            <p class="ccard-text flex-grow-3">
+              Sitio web de recetas utilizando Bootstrap y el preprocesador  de CSS SASS.
+              
+            </p>
+          </div>
+          <ul class="list-group list-group-flush flex-grow-2">
+            <li class="list-group-item text-center">
+              HTML - CSS - BEM - Responsive - Bootstrap - SASS
+            </li>
+          </ul>
+          <div class="card-body d-flex flex-wrap justify-content-center align-items-center flex-grow-0">
+            <a href="https://cmongez.github.io/shoptravel/" target="_blank">
+              <button class="hero__button btn btn-v-primary btn-warning">
+                Ver Demo
+              </button></a
+            >
+            <a href="https://github.com/cmongez/shoptravel" target="_blank">
+              <button class="hero__button btn btn-v-secondary btn-dark m-1 p-1">
+                Ir a GitHub
+              </button></a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="crecer col-12 col-sm-6 col-lg-6 p-3">
         <div class="card align-items-stretch mb-2">
           <img
             src="../assets/project-4.png"
@@ -100,7 +133,7 @@
           </div>
         </div>
       </div>
-      <div class="crecer col-12 col-sm-6 col-lg-4 p1">
+      <div class="crecer col-12 col-sm-6 col-lg-6 p-3">
         <div class="card mb-2">
           <img
             src="../assets/project-3.png"
@@ -133,7 +166,7 @@
           </div>
         </div>
       </div>
-      <div class="crecer col-12 col-sm-6 col-lg-4 p1">
+      <div class="crecer col-12 col-sm-6 col-lg-6 p-3">
         <div class="card  mb-2">
           <img
             src="../assets/project-2.png"
@@ -171,11 +204,11 @@
           </div>
         </div>
       </div>
-      <div class="crecer col-12 col-sm-6 col-lg-4  p1">
+      <div class="crecer col-12 col-sm-6 col-lg-6  p-3">
         <div class="card  mb-2">
           <img
             src="../assets/project-1.png"
-            class="card-img-top bg-dark"
+            class="card-img-top  bg-dark"
             alt="..."
           />
           <div class="card-body flex-grow-2">
@@ -235,6 +268,7 @@ export default {
     font-weight: bold;
   }
 }
+
 .card-img-top:hover{
 filter:opacity(.80);
 }
