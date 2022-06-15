@@ -32,10 +32,10 @@
     </ul>
     </div>
     
-    <div id="proyectos" class="row d-flex align-items-stretch d justify-content-center px-2">
+    <div id="proyectos" class="row d-flex align-items-stretch justify-content-center m-0 px-2">
       <h2 class="col-12 px-4 pb-1">Proyectos</h2>
       <div class="crecer col-12 col-sm-6 col-lg-6 p-3 ">
-        <div class="card  mb-2">
+        <div class="card mb-2">
           <img
             src="../assets/project-5.png"
             class="card-img-top bg-dark"

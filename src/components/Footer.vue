@@ -1,26 +1,51 @@
 <template>
-  <footer id="Contacto" class="bg-footer mt-5 container">
-    <div class=" flex-column d-flex flex-md-row justify-content-center align-items-center">
-      <hr>
-      
-      <p class="text-center col-12 col-md-4">Creado por <a href="https://github.com/cmongez/portafolio" target="_blank">César Mongez</a></p>
-      <p class="title_8 text-center col-12 col-md-4">© Todos los derechos reservados 2022</p> 
-      <SocialNetworks class="col-12 col-md-4" />
+  <footer id="Contacto" class="bg-footer mt-4 pt-3 pb-3">
+    <div
+      class="
+        d-flex
+        flex-column flex-md-row
+        justify-content-center justify-content-md-around
+        align-items-center
+      "
+    >
+      <SocialNetworks
+        class="d-flex  justify-content-around align-items-center"
+      />
+      <div class="d-flex flex-column align-items-center mb-2">
+        <div class="d-flex align-items-center pb-2">
+          <p class="text-center m-0">Hecho con</p>
+          <BeatingHeart class="mx-2" />
+          <p class="m-0">
+            en
+            <span class="font-weight-bold font-italic text-success">Vue</span>
+          </p>
+        </div>
+        <p class="m-0">
+          Creado por
+          <a href="https://github.com/cmongez/portafolio" target="_blank"
+            >César Mongez</a
+          >
+        </p>
+      </div>
+      <p class="text-center m-0">Copyright © 2022</p>
     </div>
   </footer>
 </template>
 
 <script>
-import SocialNetworks from '@/components/SocialNetworks.vue'
+import SocialNetworks from "@/components/SocialNetworks.vue";
+import BeatingHeart from "@/components/animations/BeatingHeart.vue";
 export default {
-    name:'Footer',
-    components:{
-      SocialNetworks
-    }
-
-}
+  name: "Footer",
+  components: {
+    SocialNetworks,
+    BeatingHeart,
+  },
+};
 </script>
 
-<style>
-
+<style lang="scss" scoped>
+footer {
+  background-color: #000814;
+}
 </style>

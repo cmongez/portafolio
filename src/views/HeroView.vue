@@ -22,7 +22,7 @@
         <h2 class="hero__subtitle h6 text-center col-12">
           Desarrollador Front End
         </h2>
-        <SocialNetworks />
+        <SocialNetworks class="w-75" />
       </div>
       <div
         class="

@@ -16,6 +16,7 @@ $prueba:blue;
 .p-indent{
   text-indent: 30px;
 
+
 }
 a{
   cursor: pointer;
