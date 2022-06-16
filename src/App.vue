@@ -33,14 +33,21 @@ h2{
 p,li{
   color:#A3ABB2
 }
+.btn{
+  
+  font-weight: 400;
+}
 .btn-v-primary{
   background-color: #ffc300;
-  color:#3D3D3D;
+  color:#2e2e2e;
   border:0;
 }
 .btn-v-secondary{
   background: #171F26;
   color: #A3ABB2;
+}
+.card-text,.list-group-item{
+  color: #3D3D3D;
 }
 
 </style>
