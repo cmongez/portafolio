@@ -6,7 +6,7 @@
     <div class="container-fluid">
       <h2>Habilidades</h2>
       <p class="p-indent">
-        Egresé del Bootcamp como Desarrollador de Aplicaciones Front End Trainee
+        Egresé del Bootcamp como Desarrollador de Aplicaciones Front End 
         usando el siguiente stack de tecnologías y metodologías:
       </p>
       <ul
@@ -25,6 +25,7 @@
         <li class="skillsList__item">Bootstrap</li>
         <li class="skillsList__item">SASS</li>
         <li class="skillsList__item">Git</li>
+        <li class="skillsList__item">GitHub</li>
         <li class="skillsList__item">JavaScript</li>
         <li class="skillsList__item">POO</li>
         <li class="skillsList__item">API</li>
