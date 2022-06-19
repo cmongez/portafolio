@@ -6,8 +6,8 @@
     <div class="container-fluid">
       <h2>Habilidades</h2>
       <p class="p-indent">
-        Egresé del Bootcamp como Desarrollador de Aplicaciones Front End 
-        usando el siguiente stack de tecnologías y metodologías:
+        Egresé del Bootcamp como Desarrollador de Aplicaciones Front End usando
+        el siguiente stack de tecnologías y metodologías:
       </p>
       <ul
         class="
@@ -38,10 +38,61 @@
 
     <div
       id="proyectos"
-      class="container-fluid row d-flex align-items-stretch justify-content-center m-0"
+      class="
+        container-fluid
+        row
+        d-flex
+        align-items-stretch
+        justify-content-center
+        m-0
+      "
     >
-      <h2 class="col-12 p-0 ">Proyectos</h2>
-     <i><p class="col-12 p-0 text-warning h6 ">{{mensaje}}</p></i>
+      <h2 class="col-12 p-0">Proyectos</h2>
+      <i
+        ><p class="col-12 p-0 text-warning h6">{{ mensaje }}</p></i
+      >
+      <div class="crecer col-12 col-sm-6 col-lg-6 p-2 p-sm-3">
+        <div class="card mb-2">
+          <img
+            src="../assets/project-7.png"
+            class="card-img-top bg-dark"
+            alt="..."
+          />
+          <div class="card-body flex-grow-2">
+            <h5 class="card-title text-center">Adminweb</h5>
+            <p class="card-text flex-grow-3">
+              Single-Page Application (SPA) hecha en Vue que simula una web de cursos, contiene una vista de administrador CRUD.
+              Se construyo utilizando HTML, CSS, Bootstrap, Sass, Git, GitHub, JavaScript, Vue, Vue Router y Vuex.
+            </p>
+          </div>
+          <ul class="list-group list-group-flush flex-grow-2">
+            <li class="list-group-item text-center">
+              HTML, CSS, Bootstrap, Sass, Git, GitHub, JavaScript, Vue, Vue Router y Vuex.
+            </li>
+          </ul>
+          <div
+            class="
+              card-body
+              d-flex
+              flex-wrap
+              justify-content-center
+              align-items-center
+              flex-grow-0
+            "
+          >
+            <a href="https://cmongez.github.io/adminweb/" target="_blank">
+              <button class="hero__button btn btn-v-primary btn-warning">
+                Ver Demo
+              </button></a
+            >
+            <a href="https://github.com/cmongez/adminweb" target="_blank">
+              <button class="hero__button btn btn-v-secondary btn-dark m-1 p-1">
+                Ir a GitHub
+              </button></a
+            >
+          </div>
+        </div>
+      </div>
       <div class="crecer col-12 col-sm-6 col-lg-6 p-2 p-sm-3">
         <div class="card mb-2">
           <img
@@ -52,7 +103,8 @@
           <div class="card-body flex-grow-2">
             <h5 class="card-title text-center">FOOD</h5>
             <p class="card-text flex-grow-3">
-              Sitio web de recetas utilizando Bootstrap y el preprocesador de CSS SASS.
+              Sitio web de recetas utilizando Bootstrap y el preprocesador de
+              CSS SASS.
             </p>
           </div>
           <ul class="list-group list-group-flush flex-grow-2">
@@ -309,11 +361,12 @@
 <script>
 export default {
   name: "ProjectsSkillsView",
-  data(){
-    return{
-      mensaje:"<!--Hola, estoy actualizando mi portafolio. Dentro de poco subire mi mejores proyectos los cuales fueron desarrollados con JavaScript, Vue.js, Vue Router y Vuex.-->"
-    }
-  }
+  data() {
+    return {
+      mensaje:
+        "<!--Hola, estoy actualizando mi portafolio. Dentro de poco subire mi mejores proyectos los cuales fueron desarrollados con JavaScript, Vue.js, Vue Router y Vuex.-->",
+    };
+  },
 };
 </script>
 
