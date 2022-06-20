@@ -48,9 +48,7 @@
       "
     >
       <h2 class="col-12 p-0">Proyectos</h2>
-      <i
-        ><p class="col-12 p-0 text-warning h6">{{ mensaje }}</p></i
-      >
+      
       <div class="crecer col-12 col-sm-6 col-lg-6 p-2 p-sm-3">
         <div class="card mb-2">
           <img
@@ -403,12 +401,7 @@
 <script>
 export default {
   name: "ProjectsSkillsView",
-  data() {
-    return {
-      mensaje:
-        "<!--Hola, estoy actualizando mi portafolio. Dentro de poco subire mi mejores proyectos los cuales fueron desarrollados con JavaScript, Vue.js, Vue Router y Vuex.-->",
-    };
-  },
+  
 };
 </script>
 

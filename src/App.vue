@@ -31,7 +31,7 @@ h2{
   color: #F1F2F4;
 }
 p,li{
-  color:#A3ABB2
+  color:#c2c6c9;
 }
 .btn{
   
