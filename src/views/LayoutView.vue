@@ -1,7 +1,6 @@
 <template>
   <div>
     <NavBar />
-    <Particles />
     <router-view />
     <Footer />
  </div>
