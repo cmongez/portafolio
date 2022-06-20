@@ -8,12 +8,9 @@
 import "./particles";
 export default {
   name: "particles",
-  mounted() {
-    this.initParticles();
-  },
-  methods: {
-    initParticles() {
-      window.particlesJS("particles-js", {
+  data(){
+    return{
+      particlesData:{
         particles: {
           number: {
             value: 80,
@@ -122,7 +119,15 @@ export default {
           },
         },
         retina_detect: true,
-      });
+      }
+    }
+  },
+  mounted() {
+    this.initParticles();
+  },
+  methods: {
+    initParticles() {
+      window.particlesJS("particles-js", this.particlesData);
     },
   },
 };
