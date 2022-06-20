@@ -6,7 +6,6 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "deploy": "npm run build && cd ./dist && cp index.html 404.html"
-    
   },
   "dependencies": {
     "@popperjs/core": "^2.11.5",
