@@ -1411,7 +1411,7 @@ var pJS = function(tag_id, params){
 
 };
 
-/* ---------- global functions - vendors ------------ */
+/* ---------- global functions -s vendors ------------ */
 
 Object.deepExtend = function deepExtendFunction(destination, source) {
   for (var property in source) {
