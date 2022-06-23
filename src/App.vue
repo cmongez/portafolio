@@ -15,13 +15,16 @@ export default {
 };
 </script>
 <style lang="scss">
+// variables
+$my-primary: #0c151d;
+$my-secondary: #f1f2f4 ;
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-$prueba: blue;
+
 .p-indent {
   text-indent: 30px;
 }
@@ -29,13 +32,13 @@ a {
   cursor: pointer;
 }
 body {
-  background-color: #0c151d;
+  background-color: $my-primary;
 }
 h1 {
-  color: #f1f2f4;
+  color: $my-secondary;
 }
 h2 {
-  color: #f1f2f4;
+  color: $my-secondary;
 }
 p,
 li {
