@@ -6,7 +6,7 @@
   </div>
 </template>
 <script>
-import Particles from "@/components/Particles.vue";
+import Particles from "@/components/particles/Particles.vue";
 export default {
   name: "App",
   components: {
