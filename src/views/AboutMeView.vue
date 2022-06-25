@@ -1,5 +1,5 @@
 <template>
-  <section id="sobremi" class="col-12 col-sm-10 col-md-9">
+  <section id="sobremi" class="col-12 col-sm-10 col-md-9 mb-4">
     <h2>Sobre mi</h2>
     <p class="p-indent">
       ¡Felizmente reinventado! Anteriormente alternaba mis estudios como autodidacta en el
@@ -8,10 +8,7 @@
       logrando aprender nuevas tecnologías que me permitirán ser un
       desarrollador competitivo para el campo laboral.
     </p>
-    <p class="p-indent">
-      En busca de un lugar donde pueda aportar mi conocimiento, trabajar en
-      equipo, aprender de ellos y lograr una relación de ganar-ganar.
-    </p>
+    
   </section>
 </template>
 

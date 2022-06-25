@@ -22,7 +22,7 @@
         </div>
         <p class="m-0">
           Creado por
-          <a class="text-white font-weight-bold" href="https://github.com/cmongez/portafolio" title="César Mongez" target="_blank"
+          <a class="text-white font-weight-bold" href="https://github.com/cmongez/" title="César Mongez" target="_blank"
             >César Mongez</a
           >
         </p>
