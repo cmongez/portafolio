@@ -16,7 +16,7 @@ export default {
 </script>
 <style lang="scss">
 // variables
-$my-primary: #0c151d;
+$my-primary: #23283e;
 $my-secondary: #f1f2f4 ;
 * {
   margin: 0;
