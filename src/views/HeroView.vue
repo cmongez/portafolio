@@ -12,7 +12,7 @@
         mt-md-4
       "
     >
-      <div class="d-flex flex-column flex-md-row col-sm-6 col-sm-10 col-md-8  col-lg-6 justify-content-around" >
+      <div class="d-flex flex-column col-sm-6 col-sm-10 col-md-8  col-lg-6 justify-content-around" >
         <img
           class="align-self-center border-profile img-fluid hero__img col-4 col-md-4 mb-4 mb-md-0 p-0"
           src="../assets/profile-picture.png"
@@ -80,6 +80,13 @@ export default {
 .border-profile {
   border: 10px solid #ffc300;
   border-radius: 100%;
+}
+@media screen and (min-height: 1000px) {
+  .hero {
+  min-height: 50vh;
+  max-height: 60vh;
+  }
+
 }
 
 </style>

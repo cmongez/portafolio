@@ -1,6 +1,6 @@
 <template>
   <ul
-    class="socialNetworks d-flex justify-content-around align-items-center mt-2"
+    class="socialNetworks d-flex justify-content-center align-items-center mt-2"
   >
     <li class="socialNetworks__item">
       <a
@@ -46,8 +46,8 @@ export default {
   list-style: none;
 
   &__item {
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
   &__icon{
     color: #c2c6c9;
