@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-dark px-lg-5 ">
     <div class="container px-4">
-      <router-link class="navbar-brand d-sm-none"  to="/">CMongez</router-link>
+      <router-link class="navbar-brand d-sm-none" to="/">CMongez</router-link>
     <router-link class="navbar-brand  ml-lg-5 d-none d-sm-inline" to="/"
       >César Mongez</router-link
     >
@@ -19,7 +19,7 @@
     <div class="collapse navbar-collapse justify-content-lg-end mr-lg-5" id="navbarText">
       <ul class="navbar-nav">
         <li class="nav-item active">
-          <router-link to="/" class="nav-link text-center"
+          <router-link to="/home" class="nav-link text-center"
             >Home<span class="sr-only">(current)</span></router-link
           >
         </li>
@@ -31,6 +31,9 @@
         </li>
         <li class="nav-item">
           <a class="nav-link text-center" href="#proyectos">Proyectos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-center" href="#certificados">Certificados</a>
         </li>
       </ul>
     </div>

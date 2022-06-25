@@ -1,12 +1,18 @@
 <template>
   <div class="welcome">
     <div
-    class="welcome__animation d-flex flex-column justify-content-center align-items-center"
-  >
-    <h1>César Mongez</h1>
-    <h2>Desarrollador Front End</h2>
-    <p class="h1">Bienvenidos</p>
-  </div>
+      class="
+        welcome__animation
+        d-flex
+        flex-column
+        justify-content-center
+        align-items-center
+      "
+    >
+      <p class="h1 welcome__title">Bienvenidos</p>
+      <h1 class="h2">César Mongez</h1>
+      <h2 class="h2">Desarrollador Front End</h2>
+    </div>
   </div>
 </template>
 
@@ -18,19 +24,23 @@ export default {
       this.$router.replace({ path: "/home" });
     },
   },
-  mounted() {setTimeout(() => this.goHome(), 2200);},
+  mounted() {
+    setTimeout(() => this.goHome(), 2200);
+  },
 };
 </script>
 
 <style lang="scss" scoped>
 .welcome {
-    overflow: hidden;
-  &__animation{
-    
-  height: 100vh;
-  width: 100vw;
-  animation-duration: 1.4s;
-  animation-name: slidein;
+  overflow: hidden;
+  &__animation {
+    height: 100vh;
+    width: 100vw;
+    animation-duration: 1.4s;
+    animation-name: slidein;
+  }
+  &__title{
+    font-size: 4em;
   }
 }
 

@@ -4,6 +4,7 @@
     <HeroView />
     <AboutMeView />
     <ProjectsSkillsView />
+    <CertificatesView  />
     
 
   </div>
@@ -14,6 +15,7 @@
 import HeroView from '@/views/HeroView.vue'
 import AboutMeView from '@/views/AboutMeView.vue'
 import ProjectsSkillsView from '@/views/ProjectsSkillsView.vue'
+import CertificatesView from '@/views/CertificatesView.vue'
 
 
 export default {
@@ -22,6 +24,7 @@ export default {
     HeroView,
     AboutMeView,
     ProjectsSkillsView,
+    CertificatesView
    
   }
 }

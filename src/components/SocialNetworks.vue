@@ -1,36 +1,36 @@
 <template>
-  <ul class="socialNetworks d-flex justify-content-around align-items-center  mt-2">
+  <ul
+    class="socialNetworks d-flex justify-content-around align-items-center mt-2"
+  >
     <li class="socialNetworks__item">
       <a
         href="https://www.linkedin.com/in/cmongez/"
         target="_blank"
-        class="socialNetworks__link"
-        ><img
-          class="socialNetworks__img img-fluid"
-          src="../assets/linkedin.png"
+        class="socialNetworks__link "
+        ><i
           title="Perfil de LinkedIn"
-          alt="Icono LinkedIn"
-      /></a>
+          class="fa-brands fa-linkedin socialNetworks__icon"
+        ></i
+      ></a>
     </li>
     <li class="socialNetworks__item">
       <a
         href="https://github.com/cmongez"
         target="_blank"
-        class="socialNetworks__link"
-        ><img
-          class="socialNetworks__img img-fluid"
-          src="../assets/github.png"
-          title="Perfil de GitHub"
-          alt="Icono GitHub"
-      /></a>
+        class="socialNetworks__link "
+        ><i class="fa-brands fa-github socialNetworks__icon" title="Perfil de GitHub"></i>
+      </a>
     </li>
     <li class="socialNetworks__item">
-      <a href="https://github.com/cmongez/portafolio" target="_blank" class="socialNetworks__link"
-        ><img title="Codigo portafolio"
-          class="socialNetworks__img img-fluid"
-          src="../assets/portfolio.png"
-          alt="Icono codigo portafolio"
-      /></a>
+      <a
+        href="https://github.com/cmongez/portafolio"
+        target="_blank"
+        class="socialNetworks__link"
+        ><i
+          title="Codigo portafolio"
+          class="fa-solid fa-briefcase socialNetworks__icon"
+        ></i
+      ></a>
     </li>
   </ul>
 </template>
@@ -41,18 +41,20 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 .socialNetworks {
-    list-style: none;
-    
-    &__item{
+  list-style: none;
+
+  &__item {
     margin-left: 5px;
     margin-right: 5px;
+  }
+  &__icon{
+    color: #c2c6c9;
+    font-size: 30px;
+    &:hover{
+    color: #f0f1f1;
     }
-  &__img {
-    min-width: 25px;
-    max-width: 35px;
   }
 }
-
 </style>

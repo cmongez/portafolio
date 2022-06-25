@@ -18,11 +18,11 @@
           d-flex
           justify-content-start
           align-items-center
-          p-2 p-md-4
+          p-2 mt-2
           flex-wrap
         "
       >
-        <article class="skills__container">
+        <article class="skills__container mb-5">
           <section class="skills__skill" @click="skillsFilter('HTML')">
             <i class="devicon-html5-plain colored skills__skill__icon"></i>
 
@@ -94,15 +94,16 @@
         row
         d-flex
         align-items-stretch
-        justify-content-center
+        justify-content-between
         m-0
+        mb-5
       "
     >
       <h2 class="col-12 p-0">Proyectos <span v-show="projectsSubtitleBoolean"> {{ projectsSubtitle }}</span></h2>
       <div
         v-for="item in getSkillsFilter"
         :key="item.id"
-        class="crecer col-12 col-sm-6 col-lg-6 p-2 p-sm-3"
+        class="crecer col-12 col-sm-6 col-lg-6 p-2"
       >
         <div class="card mb-2">
           <img
@@ -163,7 +164,6 @@ export default {
   },
   computed: {
     getSkillsFilter() {
-      console.log(this.projectsFilter);
       return this.projectsFilter;
     },
   },
@@ -171,15 +171,12 @@ export default {
     async getData() {
       this.projects = await getProjects();
       this.projects = this.projects.reverse();
-      console.log("prueba", this.projects);
     },
     skillsFilter(skill) {
-      console.log(skill);
       skill !== "" ? this.projectsSubtitleBoolean = true : this.projectsSubtitleBoolean = false;
       this.projectsSubtitle = ` que incluyen ${skill}`
       this.projectsFilter = this.projects.filter((item) => {
-        console.log(item.technologies);
-        console.log(this.projectsFilter);
+
         return item.technologies.match(skill);
       });
     },
@@ -198,9 +195,7 @@ export default {
 }
 
 .skills {
-  margin-bottom: 1.4em;
   &__container {
-    margin-bottom: 2.6em;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -247,7 +242,6 @@ export default {
   .skills {
     &__container {
       margin-bottom: 3.5em;
-      max-width: 600px;
       margin-left: auto;
       margin-right: auto;
     }
