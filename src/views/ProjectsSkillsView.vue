@@ -106,11 +106,11 @@
         class="crecer col-12 col-sm-6 col-lg-6 p-2"
       >
         <div class="card mb-2">
-          <img
+          <a :href="item.demo" target="_blank"><img
             :src="require(`../assets/${item.img}`)"
             class="card-img-top bg-dark"
             alt="..."
-          />
+          /></a>
           <div class="card-body flex-grow-2">
             <h5 class="card-title text-center">{{ item.name }}</h5>
             <p class="card-text flex-grow-3">
@@ -189,6 +189,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
 .crecer {
   display: flex;
   align-items: stretch;

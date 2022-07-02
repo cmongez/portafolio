@@ -1,6 +1,7 @@
 <template>
   <header class="container-fluid d-flex justify-content-center  align-items-center">
     <div
+    id="hero"
       class="
         row
         hero
@@ -75,7 +76,7 @@ header{
 .hero {
   height: 500px;
   &__img {
-    height: auto;
+    max-height: 215px;
     max-width: 215px;
     border-radius: 100%;
     background-color: #666;
@@ -87,9 +88,8 @@ header{
   border-radius: 100%;
 }
 @media screen and (min-height: 1000px) {
-  .hero {
-  min-height: 50vh;
-  max-height: 60vh;
+  header {
+  min-height: 700px;
   }
 
 }
