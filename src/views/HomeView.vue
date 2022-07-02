@@ -26,6 +26,11 @@ export default {
     ProjectsSkillsView,
     CertificatesView
    
-  }
+  },
+  
 }
 </script>
+<style lang="scss" scoped>
+
+
+</style>
