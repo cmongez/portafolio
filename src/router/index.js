@@ -12,6 +12,7 @@ const routes = [
     path: "/",
     name: "welcome",
     component: WelcomeView,
+    meta: { title: 'César Mongez - Portafolio' }
   },
 
   {
@@ -19,10 +20,12 @@ const routes = [
     name: "layout",
     component: LayoutView,
     children: [
+      
       {
         path: "/home",
         name: "home",
         component: HomeView,
+        meta: { title: 'César Mongez - Portafolio' }
         
       },
      
@@ -34,6 +37,10 @@ const router = new VueRouter({
   mode: "history",
   base: process.env.BASE_URL,
   routes,
+});
+router.beforeEach((to, from, next) => {
+  document.title = to.meta.title;
+  next();
 });
 
 export default router;
