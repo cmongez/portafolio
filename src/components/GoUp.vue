@@ -23,13 +23,11 @@ export default {
   methods:{
     scrollGoUp() {
       const containerAside = document.getElementById('container-aside');
-      console.log("scroll1");
       if (window.innerWidth >= 800 && window.scrollY > 200) {
-        console.log("scroll2");
         containerAside.classList.add("go-up--show");
       } else {
         containerAside.classList.remove("go-up--show");
-        console.log("scroll3");
+        
       }
     },
   }
