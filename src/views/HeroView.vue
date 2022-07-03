@@ -1,5 +1,5 @@
 <template>
-  <header class="container-fluid d-flex justify-content-center  align-items-center">
+  <header id="header" class="container-fluid d-flex justify-content-center  align-items-center">
     <div
     id="hero"
       class="
