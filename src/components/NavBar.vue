@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-dark px-lg-5 ">
+  <nav id="nav" class="navbar navbar-expand-lg navbar-dark px-lg-5 ">
     <div class="container px-4">
       <router-link class="navbar-brand d-sm-none" to="/">CMongez</router-link>
     <router-link class="navbar-brand  ml-lg-5 d-none d-sm-inline" to="/"

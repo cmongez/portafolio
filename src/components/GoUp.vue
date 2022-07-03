@@ -5,7 +5,7 @@
     class="go-up"
     id="container-aside"
   >
-    <a class="go-up__link" href="#header">
+    <a class="go-up__link" href="#nav">
       <i class="go-up__icon fa-solid fa-arrow-up" aria-hidden="true"></i>
     </a>
   </aside>
