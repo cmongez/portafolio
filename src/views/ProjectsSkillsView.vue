@@ -22,7 +22,7 @@
           flex-wrap
         "
       >
-        <article class="skills__container mb-5">
+        <article class="skills__container new-style  mb-5">
           <section class="skills__skill" @click="skillsFilter('HTML')">
             <i class="devicon-html5-plain colored skills__skill__icon"></i>
 
