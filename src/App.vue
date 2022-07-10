@@ -63,11 +63,11 @@ li {
 .btn-v-secondary {
   background: #171f26;
   color: #a3abb2;
+  &:hover{
+    color:$my-secondary
+  }
 }
-.card-text,
-.list-group-item {
-  color: #3d3d3d;
-}
+
 @media screen and (min-width: 1500px) {
   #hero,#sobremi,#habilidades,#certificados {
   width: 1200px;
