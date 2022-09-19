@@ -1,5 +1,25 @@
 [
   {
+    "demo": "https://cmongez.github.io/libreria-digital/",
+    "description": "Mi primera práctica realizando una pagina web completa.",
+    "id": 1,
+    "img": "project-1.png",
+    "img_full_screen": "",
+    "name": "Libreria Digital",
+    "repository": "https://github.com/cmongez/libreria-digital",
+    "technologies": "HTML - CSS - Git - GitHub"
+  },
+  {
+    "demo": "https://cmongez.github.io/star-wars-responsive/",
+    "description": "Practica de diseño responsive, mobile first y grillas de Bootstrap.",
+    "id": 2,
+    "img": "project-2.png",
+    "img_full_screen": "",
+    "name": "Star Wars Responsive",
+    "repository": "https://github.com/cmongez/star-wars-responsive",
+    "technologies": "HTML - CSS - Bootstrap - Git - GitHub"
+  },
+  {
     "demo": "https://cmongez.github.io/tecnishop/",
     "description": "Practica de metodología BEM, diseño responsive, mobile first, importación de fuentes.",
     "id": 3,
