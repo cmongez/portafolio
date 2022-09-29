@@ -1,155 +1,117 @@
 <template>
-  <section
-    id="habilidades"
-    class="col-12 col-sm-10 col-md-9 container-fluid p-0"
-  >
+  <section id="habilidades" class="col-12 col-sm-10 col-md-9 container-fluid p-0">
     <div class="container-fluid">
       <h2>Habilidades</h2>
       <p class="p-indent">
-        He desarrollado implementando la metodologia BEM, metodologias ágiles,
-        consumo de API mediante Fetch y Axios, manejo del DOM, POO. En el stack
-        de tecnologias con las que desarrollo se encuentran:
+        He desarrollado implementando la metodologia BEM, metodologias ágiles, consumo de API mediante Fetch y Axios,
+        manejo del DOM, POO. En el stack de tecnologias con las que desarrollo se encuentran:
       </p>
       <i class="text-warning">*Puedes filtrar por tecnologias*</i>
-      <div
-        class="
-          skillsList
-          skills
-          d-flex
-          justify-content-start
-          align-items-center
-          p-2
-          mt-2
-          flex-wrap
-        "
-      >
+      <div class="skillsList skills d-flex justify-content-start align-items-center p-2 mt-2 flex-wrap">
         <article class="skills__container new-style mb-5">
-          <section class="skills__skill" @click="skillsFilter('HTML')">
+          <a href="#proyectos" class="skills__skill" @click="skillsFilter('HTML')">
             <i class="devicon-html5-plain colored skills__skill__icon"></i>
 
             HTML
-          </section>
+          </a>
 
-          <section class="skills__skill" @click="skillsFilter('CSS')">
+          <a href="#proyectos" class="skills__skill" @click="skillsFilter('CSS')">
             <i class="devicon-css3-plain colored skills__skill__icon"></i>
 
             CSS
-          </section>
+          </a>
 
-          <section class="skills__skill" @click="skillsFilter('JavaScript')">
+          <a href="#proyectos" class="skills__skill" @click="skillsFilter('JavaScript')">
             <i class="devicon-javascript-plain colored skills__skill__icon"></i>
 
             JavaScript
-          </section>
+          </a>
 
-          <section class="skills__skill" @click="skillsFilter('Bootstrap')">
+          <a href="#proyectos" class="skills__skill" @click="skillsFilter('Bootstrap')">
             <i class="devicon-bootstrap-plain colored skills__skill__icon"></i>
 
             Bootstrap
-          </section>
+          </a>
 
-          <section class="skills__skill" @click="skillsFilter('SASS')">
+          <a href="#proyectos" class="skills__skill" @click="skillsFilter('SASS')">
             <i class="devicon-sass-original colored skills__skill__icon"></i>
 
             SASS
-          </section>
+          </a>
 
-          <section class="skills__skill" @click="skillsFilter('Git')">
+          <a href="#proyectos" class="skills__skill" @click="skillsFilter('Git')">
             <i class="devicon-git-plain colored skills__skill__icon"></i>
             GIT
-          </section>
+          </a>
 
-          <section class="skills__skill" @click="skillsFilter('GitHub')">
+          <a href="#proyectos" class="skills__skill" @click="skillsFilter('GitHub')">
             <i class="devicon-github-original colored skills__skill__icon"></i>
 
             GitHub
-          </section>
+          </a>
 
-          <section class="skills__skill" @click="skillsFilter('Vue')">
+          <a href="#proyectos" class="skills__skill" @click="skillsFilter('Vue')">
             <i class="devicon-vuejs-plain colored skills__skill__icon"></i>
 
             Vue
-          </section>
-          <section class="skills__skill" @click="skillsFilter('Vuex')">
+          </a>
+          <a href="#proyectos" class="skills__skill" @click="skillsFilter('Vuex')">
             <i class="devicon-vuejs-plain colored skills__skill__icon"></i>
 
             Vuex
-          </section>
-          <section class="skills__skill" @click="skillsFilter('')">
+          </a>
+          <a href="#proyectos" class="skills__skill" @click="skillsFilter('Node')">
+            <i class="devicon-nodejs-plain colored skills__skill__icon"></i>
+
+            Node.js
+          </a>
+          <a href="#proyectos" class="skills__skill" @click="skillsFilter('Express')">
+            <i class="devicon-express-original colored skills__skill__icon"></i>
+
+            Express.js
+          </a>
+          <a class="skills__skill" href="#proyectos" @click="skillsFilter('')">
             <i class="devicon-canva-original colored skills__skill__icon"></i>
 
             Canva
-          </section>
-          <section class="skills__skill" @click="skillsFilter('')">
-            Todos
-          </section>
+          </a>
+          <a href="#proyectos" class="skills__skill" @click="skillsFilter('')">Todos</a>
         </article>
       </div>
     </div>
 
-    <div
-      id="proyectos"
-      class="
-        projects
-        container-fluid
-        row
-        d-flex
-        align-items-stretch
-        justify-content-around
-        m-0
-        mb-5
-      "
-    >
+    <div id="proyectos" class="projects container-fluid row d-flex align-items-stretch justify-content-around m-0 mb-5">
       <h2 class="projects__subtitle col-12 p-0">
         Proyectos
         <span v-show="projectsSubtitleBoolean"> {{ projectsSubtitle }}</span>
       </h2>
-      <div
-        v-for="item in getSkillsFilter"
-        :key="item.id"
-        class="projects__list p-2"
-      >
-        <div class="projects__card mb-2">
+      <div v-for="item in getSkillsFilter" :key="item.id" class="projects__list p-2">
+        <div class="projects__card d-flex flex-column mb-2">
           <a :href="item.demo" target="_blank"
-            ><img
-              :src="require(`../assets/${item.img}`)"
-              alt="..."
-              class="img-fluid"
+            ><img :src="require(`../assets/${item.img}`)" alt="..." class="img-fluid"
           /></a>
-          <div class="projects__card__info">
-            <h5 class="projects__card__info__title text-center">
-              {{ item.name }}
-            </h5>
-            <p class="projects__card__info__paragraph">
-              {{ item.description }}
-            </p>
-          </div>
-          <ul class="projects__card__technologies">
-            <li class="projects__card__technologies__item text-center">
-              {{ item.technologies }}
-            </li>
-          </ul>
-          <div
-            class="
-              projects__card__buttons
-              mt-3
-              mb-3
-              d-flex
-              flex-wrap
-              justify-content-center
-              align-items-center
-            "
-          >
-            <a :href="item.demo" target="_blank">
-              <button class="hero__button btn btn-v-primary btn-warning">
-                Ver Demo
-              </button></a
-            >
-            <a :href="item.repository" target="_blank">
-              <button class="hero__button btn btn-v-secondary">
-                Ir a GitHub
-              </button></a
-            >
+          <div class="h-100 d-flex flex-column justify-content-between">
+            <div class="projects__card__info">
+              <h5 class="projects__card__info__title text-center">
+                {{ item.name }}
+              </h5>
+              <p class="projects__card__info__paragraph">
+                {{ item.description }}
+              </p>
+            </div>
+            <ul class="projects__card__technologies">
+              <li class="projects__card__technologies__item text-center">
+                {{ item.technologies }}
+              </li>
+            </ul>
+            <div class="projects__card__buttons mt-3 mb-3 d-flex flex-wrap justify-content-center align-items-center">
+              <a :href="item.demo" target="_blank">
+                <button class="hero__button btn btn-v-primary btn-warning">Ver Demo</button></a
+              >
+              <a :href="item.repository" target="_blank">
+                <button class="hero__button btn btn-v-secondary">Ir a GitHub</button></a
+              >
+            </div>
           </div>
         </div>
       </div>
@@ -158,15 +120,15 @@
 </template>
 
 <script>
-import { getProjects } from "@/api/projects.js";
+import { getProjects } from '@/api/projects.js';
 getProjects();
 export default {
-  name: "ProjectsSkillsView",
+  name: 'ProjectsSkillsView',
   data() {
     return {
       projects: [],
       projectsFilter: [],
-      projectsSubtitle: "",
+      projectsSubtitle: '',
       projectsSubtitleBoolean: false,
     };
   },
@@ -181,9 +143,7 @@ export default {
       this.projects = this.projects.reverse();
     },
     skillsFilter(skill) {
-      skill !== ""
-        ? (this.projectsSubtitleBoolean = true)
-        : (this.projectsSubtitleBoolean = false);
+      skill !== '' ? (this.projectsSubtitleBoolean = true) : (this.projectsSubtitleBoolean = false);
       this.projectsSubtitle = ` que incluyen ${skill}`;
       this.projectsFilter = this.projects.filter((item) => {
         return item.technologies.match(skill);
@@ -192,7 +152,7 @@ export default {
   },
   async created() {
     await this.getData();
-    await this.skillsFilter("");
+    await this.skillsFilter('');
   },
 };
 </script>
@@ -218,8 +178,7 @@ export default {
     font-size: 0.95rem;
     border-radius: 1em;
     color: #bdbddd;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
-      rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
     &__icon {
       font-size: 2rem;
     }
@@ -270,8 +229,7 @@ export default {
     margin-bottom: 1.6em;
     border-radius: 1em;
     overflow: hidden;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
-      rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
     margin-left: auto;
     margin-right: auto;
     &__buttons {
