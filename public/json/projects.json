@@ -40,6 +40,16 @@
     "technologies": "HTML - CSS - Bootstrap - SASS - Git - GitHub"
   },
   {
+    "demo": "https://cmongez.github.io/adminweb/",
+    "description": "SPA hecha en Vue que simula una web de cursos, contiene una vista de administrador CRUD. ",
+    "id": 8,
+    "img": "project-7.png",
+    "img_full_screen": "",
+    "name": "Adminweb",
+    "repository": "https://github.com/cmongez/adminweb",
+    "technologies": "HTML - CSS - Bootstrap - SASS - Git - GitHub - JavaScript - Vue - Vue Router - Vuex"
+  },
+  {
     "demo": "https://cmongez.github.io/rick-and-morty/",
     "description": "SPA hecha en Vue que simula un e-commerce, contiene carrito de compras. ",
     "id": 7,
@@ -49,14 +59,15 @@
     "repository": "https://github.com/cmongez/rick-and-morty",
     "technologies": "HTML - CSS - Bootstrap - SASS - Git - GitHub - JavaScript - Vue - Vue Router - Vuex"
   },
+  
   {
-    "demo": "https://cmongez.github.io/adminweb/",
-    "description": "SPA hecha en Vue que simula una web de cursos, contiene una vista de administrador CRUD. ",
-    "id": 8,
-    "img": "project-7.png",
+    "demo": "https://bsale-test-cesar-mongez.netlify.app/",
+    "description": "Desafio técnico propuesto por Bsale para optar al cargo de Software Developer. Ecommerce desarrollado con Vanilla JS, consume una API REST creada por mi utilizando Node.js y Express haciendo consultas a una DB MySQL a traves de knex.",
+    "id": 9,
+    "img": "project-9.png",
     "img_full_screen": "",
-    "name": "Adminweb",
-    "repository": "https://github.com/cmongez/adminweb",
-    "technologies": "HTML - CSS - Bootstrap - SASS - Git - GitHub - JavaScript - Vue - Vue Router - Vuex"
+    "name": "Bsale Ecommerce - API REST",
+    "repository": "https://github.com/cmongez/bsale_backend",
+    "technologies": "HTML - CSS - Bootstrap - Git - GitHub - JavaScript - Node.js - Express.js - Knex - MySQL"
   }
 ]

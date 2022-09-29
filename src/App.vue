@@ -1,32 +1,30 @@
 <template>
   <div id="app">
-    
     <Particles />
     <router-view />
   </div>
 </template>
 <script>
-import Particles from "@/components/particles/Particles.vue";
+import Particles from '@/components/particles/Particles.vue';
 export default {
-  name: "App",
+  name: 'App',
   components: {
     Particles,
   },
 };
 </script>
 <style lang="scss">
-
 // variables
 $my-primary: #23283e;
-$my-secondary: #f1f2f4 ;
+$my-secondary: #f1f2f4;
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
-html{
+html {
   scroll-behavior: smooth;
 }
 
@@ -63,18 +61,20 @@ li {
 .btn-v-secondary {
   background: #171f26;
   color: #a3abb2;
-  &:hover{
-    color:$my-secondary
+  &:hover {
+    color: $my-secondary;
   }
 }
 
 @media screen and (min-width: 1500px) {
-  #hero,#sobremi,#habilidades,#certificados {
-  width: 1200px;
+  #hero,
+  #sobremi,
+  #habilidades,
+  #certificados {
+    width: 1200px;
   }
-  #app{
-  width: 100%;
+  #app {
+    width: 100%;
   }
-
 }
 </style>
