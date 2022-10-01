@@ -70,6 +70,11 @@
 
             Express.js
           </a>
+          <a href="#proyectos" class="skills__skill" @click="skillsFilter('Firebase')">
+            <i class="devicon-firebase-plain-wordmark colored skills__skill__icon"></i>
+
+            Firebase
+          </a>
           <a class="skills__skill" href="#proyectos" @click="skillsFilter('')">
             <i class="devicon-canva-original colored skills__skill__icon"></i>
 
@@ -121,6 +126,8 @@
 
 <script>
 import { getProjects } from '@/api/projects.js';
+import { db } from '@/config/firebase.js';
+import { collection, getDocs } from 'firebase/firestore';
 getProjects();
 export default {
   name: 'ProjectsSkillsView',
@@ -139,8 +146,13 @@ export default {
   },
   methods: {
     async getData() {
-      this.projects = await getProjects();
-      this.projects = this.projects.reverse();
+      const data = await getDocs(collection(db, 'projects'));
+      data.forEach((doc) => this.projects.push(doc.data()));
+      this.projects = this.projects
+        .sort((a, b) => {
+          return a.id - b.id;
+        })
+        .reverse();
     },
     skillsFilter(skill) {
       skill !== '' ? (this.projectsSubtitleBoolean = true) : (this.projectsSubtitleBoolean = false);

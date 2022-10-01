@@ -50,6 +50,16 @@
     "technologies": "HTML - CSS - Bootstrap - SASS - Git - GitHub - JavaScript - Vue - Vue Router - Vuex"
   },
   {
+    "demo": "https://cmongez.github.io/portafolio/",
+    "description": "Porfafolio desarrollado con Vue, consume los datos de todos mis mejores proyectos desde Firebase (Firestore). Implemente la libreria Particles.js para darle un estilo diferente. ",
+    "id": 10,
+    "img": "project-10.png",
+    "img_full_screen": "",
+    "name": "Portafolio",
+    "repository": "https://github.com/cmongez/portafolio",
+    "technologies": "HTML - CSS - Bootstrap - SASS - Git - GitHub - JavaScript - Vue - Firebase"
+  },
+  {
     "demo": "https://cmongez.github.io/rick-and-morty/",
     "description": "SPA hecha en Vue que simula un e-commerce, contiene carrito de compras. ",
     "id": 7,
@@ -70,4 +80,5 @@
     "repository": "https://github.com/cmongez/bsale_backend",
     "technologies": "HTML - CSS - Bootstrap - Git - GitHub - JavaScript - Node.js - Express.js - Knex - MySQL"
   }
+  
 ]
