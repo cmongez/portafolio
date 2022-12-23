@@ -60,6 +60,16 @@
 
             Vuex
           </a>
+          <a href="#proyectos" class="skills__skill" @click="skillsFilter('React')">
+            <i class="devicon-react-plain colored skills__skill__icon"></i>
+
+            React
+          </a>
+          <a href="#proyectos" class="skills__skill" @click="skillsFilter('Redux')">
+            <i class="devicon-redux-plain colored skills__skill__icon"></i>
+
+            Redux
+          </a>
           <a href="#proyectos" class="skills__skill" @click="skillsFilter('Node')">
             <i class="devicon-nodejs-plain colored skills__skill__icon"></i>
 
