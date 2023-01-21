@@ -1,0 +1,82 @@
+[
+  {
+    "demo": "https://cmongez.github.io/libreria-digital/",
+    "description": "Mi primera práctica realizando una pagina web completa.",
+    "id": 1,
+    "img": "project-1.png",
+    "img_full_screen": "",
+    "name": "Libreria Digital",
+    "repository": "https://github.com/cmongez/libreria-digital",
+    "technologies": "HTML - CSS - Git - GitHub"
+  },
+  {
+    "demo": "https://cmongez.github.io/star-wars-responsive/",
+    "description": "Practica de diseño responsive, mobile first y grillas de Bootstrap.",
+    "id": 2,
+    "img": "project-2.png",
+    "img_full_screen": "",
+    "name": "Star Wars Responsive",
+    "repository": "https://github.com/cmongez/star-wars-responsive",
+    "technologies": "HTML - CSS - Bootstrap - Git - GitHub"
+  },
+  {
+    "demo": "https://cmongez.github.io/tecnishop/",
+    "description": "Practica de metodología BEM, diseño responsive, mobile first, importación de fuentes.",
+    "id": 3,
+    "img": "project-3.png",
+    "img_full_screen": "",
+    "name": "TecniShop",
+    "repository": "https://github.com/cmongez/tecnishop",
+    "technologies": "HTML - CSS - Git - GitHub"
+  },
+  {
+    "demo": "https://cmongez.github.io/dogshop/",
+    "description": "Practica de metodología BEM, diseño responsive, mobile first, importación de fuentes.",
+    "id": 4,
+    "img": "project-4.png",
+    "img_full_screen": "",
+    "name": "DogShop",
+    "repository": "https://github.com/cmongez/dogshop",
+    "technologies": "HTML - CSS - Git - GitHub"
+  },
+  {
+    "demo": "https://cmongez.github.io/shoptravel/",
+    "description": "Practica de metodología BEM, diseño responsive, mobile first, importación de fuentes y Bootstrap.",
+    "id": 5,
+    "img": "project-6.png",
+    "img_full_screen": "",
+    "name": "ShopTravel",
+    "repository": "https://github.com/cmongez/shoptravel",
+    "technologies": "HTML - CSS - Bootstrap - SASS - Git - GitHub"
+  },
+  {
+    "demo": "https://cmongez.github.io/food/",
+    "description": "Sitio web de recetas utilizando Bootstrap y el preprocesador de CSS SASS.",
+    "id": 6,
+    "img": "project-5.png",
+    "img_full_screen": "",
+    "name": "FOOD",
+    "repository": "https://github.com/cmongez/food",
+    "technologies": "HTML - CSS - Bootstrap - SASS - Git - GitHub"
+  },
+  {
+    "demo": "https://cmongez.github.io/rick-and-morty/",
+    "description": "SPA hecha en Vue que simula un e-commerce, contiene carrito de compras. ",
+    "id": 7,
+    "img": "project-8.png",
+    "img_full_screen": "",
+    "name": "Tienda Rick and Morty",
+    "repository": "https://github.com/cmongez/rick-and-morty",
+    "technologies": "HTML - CSS - Bootstrap - SASS - Git - GitHub - JavaScript - Vue - Vue Router - Vuex"
+  },
+  {
+    "demo": "https://cmongez.github.io/adminweb/",
+    "description": "SPA hecha en Vue que simula una web de cursos, contiene una vista de administrador CRUD. ",
+    "id": 8,
+    "img": "project-7.png",
+    "img_full_screen": "",
+    "name": "Adminweb",
+    "repository": "https://github.com/cmongez/adminweb",
+    "technologies": "HTML - CSS - Bootstrap - SASS - Git - GitHub - JavaScript - Vue - Vue Router - Vuex"
+  }
+]
