@@ -24,7 +24,7 @@
       <div class="d-flex flex-column  justify-content-center align-items-center">
         <h1 class="hero__title h1 text-center h2 mt-2">César Mongez</h1>
         <h2 class="hero__subtitle h5 mb-4 text-center ">
-          Desarrollador Front End
+          Desarrollador Full Stack & Especialista GIS
         </h2>
         
       </div>
